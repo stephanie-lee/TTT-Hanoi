@@ -1,0 +1,84 @@
+h1{
+  text-align:center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 3em;
+}
+
+.group {
+  list-style: none;
+  width: 330px;
+  padding:0;
+  margin: 0px auto;
+}
+
+li {
+  background-color: #FF9233;
+  height: 100px;
+  width: 100px;
+  outline: 10px solid #3D2F4D;
+  margin-left:10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.group li:hover {
+  background-color: #A754FF;
+  cursor: crosshair;
+}
+
+.o:before{
+  content: "O";
+  vertical-align:middle;
+  font-family: 'Indie Flower', cursive;
+}
+
+.o{
+  background-color: #FFFC54;
+  font-size: 75px;
+  text-align: center;
+}
+
+.x:before{
+  content: "X";
+  vertical-align: middle;
+  font-family: 'Indie Flower', cursive;
+}
+
+.x{
+  background-color: #3B52FF;
+  font-size: 75px;
+  text-align: center;
+}
+
+.gameover ul li {
+  outline: 10px solid #eee;
+  background-color: #ccc;
+}
+
+.x-won > ul > .x {
+  background-color:#0EC451;
+}
+
+.x-won > ul > .o {
+  background-color:#FF4F4F;
+}
+.x-won > ul > .x {
+  background-color:#0EC451;
+}
+
+.x-won > ul > .o {
+  background-color:#FF4F4F;
+}
+
+figcaption {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
